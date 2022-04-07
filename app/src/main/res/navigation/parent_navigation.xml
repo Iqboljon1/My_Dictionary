@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.iraimjanov.dictionary.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_showFragment"
+            app:destination="@id/showFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.iraimjanov.dictionary.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_addEditWordsFragment"
+            app:destination="@id/addEditWordsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditWordsFragment"
+        android:name="com.iraimjanov.dictionary.AddEditWordsFragment"
+        android:label="fragment_add_edit_words"
+        tools:layout="@layout/fragment_add_edit_words" />
+    <fragment
+        android:id="@+id/showFragment"
+        android:name="com.iraimjanov.dictionary.ShowFragment"
+        android:label="fragment_show"
+        tools:layout="@layout/fragment_show" />
+</navigation>

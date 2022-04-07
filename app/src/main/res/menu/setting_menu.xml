@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:icon="@drawable/ic_categories"
+        android:id="@+id/categoryFragment"
+        android:title="Categories"
+        tools:ignore="HardcodedText" />
+    <item
+        android:icon="@drawable/ic_words"
+        android:id="@+id/wordFragment"
+        android:title="Words"
+        tools:ignore="HardcodedText" />
+</menu>

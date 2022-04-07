@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/basicFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Basic"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favorite"
+        tools:ignore="HardcodedText" />
+</menu>
